@@ -1,23 +1,4 @@
-<div id="slideIn-root">
-    <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
-    <div class="sc-fqkwJk jDMtnb">
-        <div class="inner">
-            <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" onclick="closeSlideIn()" alt="">
-            </div>
-            <div class="sc-kMkwmO frbVIV">
-                <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.132 6.06h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.352 2.5h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V4.7c0-1.76.44-2.2 2.22-2.2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M2.132 17.56h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M4.352 14h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V16.2c0-1.76.44-2.2 2.22-2.2ZM22.132 15.5c0 3.87-3.13 7-7 7l1.05-1.75" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M7.05 4.1 3.738 7.414M3.732 4.1l3.314 3.314" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
-                    </svg>
-                    <p>No expert copied.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="slideIn-root" class="settings_slidein">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
@@ -37,7 +18,7 @@
                         <p class="user_account">munnerjennifer@gmail.com</p>
                     </span>
                 </div>
-                <div class="sc-fhzEvr HBzzh">
+                <div onclick="openSlideIn('payments')" class="sc-fhzEvr HBzzh">
                     <div class="left">
                         <div class="settings_option_item_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card">
                                 <rect width="20" height="14" x="2" y="5" rx="2"></rect>
@@ -50,7 +31,7 @@
                     </div>
                 </div>
                 <p class="title option_title">Profile</p>
-                <div class="sc-fhzEvr HBzzh">
+                <div onclick="openSlideIn('verification')" class="sc-fhzEvr HBzzh">
                     <div class="left">
                         <div class="settings_option_item_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-check">
                                 <path d="M2 21a8 8 0 0 1 13.292-6"></path>
@@ -63,7 +44,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="sc-fhzEvr HBzzh">
+                <div  onclick="openSlideIn('personal')" class="sc-fhzEvr HBzzh">
                     <div class="left">
                         <div class="settings_option_item_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-check">
                                 <path d="M2 21a8 8 0 0 1 13.292-6"></path>
@@ -76,7 +57,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="sc-fhzEvr HBzzh">
+                <div onclick="openSlideIn('nok')" class="sc-fhzEvr HBzzh">
                     <div class="left">
                         <div class="settings_option_item_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-check">
                                 <path d="M2 21a8 8 0 0 1 13.292-6"></path>
@@ -89,7 +70,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="sc-fhzEvr HBzzh">
+                <div onclick="openSlideIn('security')" class="sc-fhzEvr HBzzh">
                     <div class="left">
                         <div class="settings_option_item_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-key">
                                 <path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path>
@@ -103,7 +84,7 @@
                     </div>
                 </div>
                 <p class="title option_title">Setup</p>
-                <div class="sc-fhzEvr HBzzh">
+                <div onclick="openSlideIn('account')" class="sc-fhzEvr HBzzh">
                     <div class="left">
                         <div class="settings_option_item_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-square-user-round">
                                 <path d="M18 21a6 6 0 0 0-12 0"></path>
@@ -133,26 +114,7 @@
 </div>
 
 
-<div id="slideIn-root">
-    <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
-    <div class="sc-fqkwJk jDMtnb">
-        <div class="inner">
-            <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" alt="">
-            </div>
-            <div class="sc-kMkwmO frbVIV">
-                <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.132 6.06h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.352 2.5h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V4.7c0-1.76.44-2.2 2.22-2.2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M2.132 17.56h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M4.352 14h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V16.2c0-1.76.44-2.2 2.22-2.2ZM22.132 15.5c0 3.87-3.13 7-7 7l1.05-1.75" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M7.05 4.1 3.738 7.414M3.732 4.1l3.314 3.314" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
-                    </svg>
-                    <p>No expert copied.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="slideIn-root" class="payments_slidein" style="transform: translateX(0%);">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
@@ -202,26 +164,7 @@
 </div>
 
 
-<div id="slideIn-root">
-    <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
-    <div class="sc-fqkwJk jDMtnb">
-        <div class="inner">
-            <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" alt="">
-            </div>
-            <div class="sc-kMkwmO frbVIV">
-                <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.132 6.06h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.352 2.5h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V4.7c0-1.76.44-2.2 2.22-2.2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M2.132 17.56h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M4.352 14h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V16.2c0-1.76.44-2.2 2.22-2.2ZM22.132 15.5c0 3.87-3.13 7-7 7l1.05-1.75" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M7.05 4.1 3.738 7.414M3.732 4.1l3.314 3.314" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
-                    </svg>
-                    <p>No expert copied.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="slideIn-root" class="verification_slidein" style="transform: translateX(0%);">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
@@ -250,26 +193,7 @@
 </div>
 
 
-<div id="slideIn-root">
-    <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
-    <div class="sc-fqkwJk jDMtnb">
-        <div class="inner">
-            <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" alt="">
-            </div>
-            <div class="sc-kMkwmO frbVIV">
-                <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.132 6.06h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.352 2.5h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V4.7c0-1.76.44-2.2 2.22-2.2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M2.132 17.56h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M4.352 14h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V16.2c0-1.76.44-2.2 2.22-2.2ZM22.132 15.5c0 3.87-3.13 7-7 7l1.05-1.75" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M7.05 4.1 3.738 7.414M3.732 4.1l3.314 3.314" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
-                    </svg>
-                    <p>No expert copied.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="slideIn-root" class="personal_slidein" style="transform: translateX(0%);">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
@@ -1591,26 +1515,7 @@
 </div>
 
 
-<div id="slideIn-root">
-    <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
-    <div class="sc-fqkwJk jDMtnb">
-        <div class="inner">
-            <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" alt="">
-            </div>
-            <div class="sc-kMkwmO frbVIV">
-                <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.132 6.06h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.352 2.5h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V4.7c0-1.76.44-2.2 2.22-2.2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M2.132 17.56h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M4.352 14h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V16.2c0-1.76.44-2.2 2.22-2.2ZM22.132 15.5c0 3.87-3.13 7-7 7l1.05-1.75" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M7.05 4.1 3.738 7.414M3.732 4.1l3.314 3.314" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
-                    </svg>
-                    <p>No expert copied.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="slideIn-root" class="nok_slidein" style="transform: translateX(0%);">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
@@ -2432,26 +2337,7 @@
 </div>
 
 
-<div id="slideIn-root">
-    <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
-    <div class="sc-fqkwJk jDMtnb">
-        <div class="inner">
-            <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" alt="">
-            </div>
-            <div class="sc-kMkwmO frbVIV">
-                <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.132 6.06h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.352 2.5h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V4.7c0-1.76.44-2.2 2.22-2.2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M2.132 17.56h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M4.352 14h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V16.2c0-1.76.44-2.2 2.22-2.2ZM22.132 15.5c0 3.87-3.13 7-7 7l1.05-1.75" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M7.05 4.1 3.738 7.414M3.732 4.1l3.314 3.314" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
-                    </svg>
-                    <p>No expert copied.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="slideIn-root" class="security_slidein" style="transform: translateX(0%);">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
@@ -2522,26 +2408,7 @@
 </div>
 
 
-<div id="slideIn-root">
-    <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
-    <div class="sc-fqkwJk jDMtnb">
-        <div class="inner">
-            <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" alt="">
-            </div>
-            <div class="sc-kMkwmO frbVIV">
-                <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.132 6.06h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M14.352 2.5h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V4.7c0-1.76.44-2.2 2.22-2.2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M2.132 17.56h10" stroke="currentColor" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M4.352 14h5.56c1.78 0 2.22.44 2.22 2.2v4.11c0 1.76-.44 2.2-2.22 2.2h-5.56c-1.78 0-2.22-.44-2.22-2.2V16.2c0-1.76.44-2.2 2.22-2.2ZM22.132 15.5c0 3.87-3.13 7-7 7l1.05-1.75" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M7.05 4.1 3.738 7.414M3.732 4.1l3.314 3.314" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path>
-                    </svg>
-                    <p>No expert copied.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="slideIn-root" class="account_slidein" style="transform: translateX(0%);">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
@@ -2829,3 +2696,35 @@
 </div>
 
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const slideInRoots = document.querySelectorAll('#slideIn-root');
+
+        slideInRoots.forEach(slideInRoot => {
+            const overlay = slideInRoot.querySelector('.overlay');
+            const closeButton = slideInRoot.querySelector('.top');
+
+            function closeSlideIn() {
+                slideInRoot.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    slideInRoot.style.display = 'none';
+                }, 300);
+            }
+
+            overlay.addEventListener('click', closeSlideIn);
+            closeButton.addEventListener('click', closeSlideIn);
+        });
+    });
+
+    function openSlideIn(type) {
+        console.log("----------", type, "----------");
+        const slideInRoot = document.querySelector(`.${type}_slidein`);
+        console.log(type, slideInRoot);
+        if (slideInRoot) {
+            slideInRoot.style.display = 'block';
+            setTimeout(() => {
+                slideInRoot.style.transform = 'initial';
+            }, 10);
+        }
+    }
+</script>

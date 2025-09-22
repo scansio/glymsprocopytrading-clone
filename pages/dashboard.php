@@ -240,6 +240,9 @@
             </div>
         </div>
     </div>
+    <div>
+        <iframe frameborder="0" scrolling="no" height="450" width="420" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.investing.com/profit-calculator/index.php?force_lang=72&acc=12&pair=1"></iframe><br /><div style="width:450"><span style="float:left"><span style="font-size: 11px;color: #333333;text-decoration: none;">The Profit Calculator is powered by <a href="https://ng.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com Nigeria</a>.</span></span></div>
+    </div>
     <div class="mid_sec">
         <div class="inner">
             <div class="sc-EROOM feJhby" style="width: 100%;">
