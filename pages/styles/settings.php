@@ -3126,6 +3126,7 @@
         overflow: scroll;
         height: 100%;
         padding-bottom: 200px;
+        scrollbar-width: none;
     }
 
 

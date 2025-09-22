@@ -1,5 +1,5 @@
 <div class="sc-dcJtft flmyU">
-    <div class="heading"><img src="/assets/asseticons/menu.svg" alt="" class="burger">
+    <div class="heading"><img src="/assets/asseticons/menu.svg" alt="" class="burger" onclick="toggleSidebar(true)">
         <div class="header_right">
             <div style="position: relative;">
                 <div class="user_circle"><img src="/assets/asseticons/bell_standard.svg" width="35" alt="" class="bell"></div>

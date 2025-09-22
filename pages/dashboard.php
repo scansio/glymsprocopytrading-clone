@@ -1,4 +1,4 @@
-<div class="sc-bdOgOc cueWRb page_wrapper">
+<div class="sc-bdOgOc cueWRb">
     <div class="main">
         <div class="sc-dPZUdm bGLywH">
             <div class="tb-holder" style="background: url(&quot;/assets/images/social-bg.jpg&quot;) 0% 0% / cover no-repeat; position: relative;">
@@ -16,12 +16,12 @@
                             <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/deposit.svg" alt="">
                                         <p class="name">Total deposits</p>
                                     </span>
-                                    <p class="text">$0.00</p><button class="sc-dLNtp etixHs summary_action_btn" style="flex: 0 1 0%;">Deposit</button>
+                                    <p class="text">$0.00</p><button class="sc-dLNtp etixHs summary_action_btn" style="flex: 0 1 0%;" onclick="window.location.href = '/deposit.php'">Deposit</button>
                                 </span></div>
                             <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/withdraw.svg" alt="">
                                         <p class="name">Total withdrawals</p>
                                     </span>
-                                    <p class="text">$0.00</p><button class="sc-dLNtp etixHs summary_action_btn" style="flex: 0 1 0%;">Withdraw</button>
+                                    <p class="text">$0.00</p><button class="sc-dLNtp etixHs summary_action_btn" style="flex: 0 1 0%;" onclick="window.location.href = '/withdraw.php'">Withdraw</button>
                                 </span></div>
                             <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/trade.svg" alt="">
                                         <p class="name">Total profits</p>

@@ -2472,6 +2472,7 @@
         border-radius: 12px;
         background: rgba(255, 255, 255, 0.024) !important;
         box-sizing: border-box !important;
+        scrollbar-width: none;
     }
 
 

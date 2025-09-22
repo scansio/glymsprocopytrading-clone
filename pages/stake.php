@@ -1,4 +1,4 @@
-<div class="sc-klVQSN cSGofJ page_wrapper">
+<div class="sc-klVQSN cSGofJ">
     <div class="content">
         <div class="top">
             <div class="sc-bypIEy cBngOy">

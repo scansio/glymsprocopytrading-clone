@@ -30,4 +30,15 @@
             element.classList.toggle(className)
         }
     }
+
+
+    function closeSlideIn() {
+        // go back to previous page or go dashboard if no history
+        if (window.history.length > 1) {
+            window.history.back()
+        } else {
+            window.location.href = '/dashboard.php'
+        }
+        //
+    }
 </script>

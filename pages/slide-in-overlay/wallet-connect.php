@@ -3,7 +3,7 @@
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
             <div class="top">
-                <p>Referral Program</p><img src="./asseticons/close.svg" alt="">
+                <p>Referral Program</p><img src="/assets/asseticons/close.svg" alt="" onclick="closeSlideIn()">
             </div>
             <div class="subtitle">Invite your friends to join our platform by using your referral code on sign up! You'll earn 10% anytime your friends make a deposit on our platform. It's a win-win for everyone!</div>
             <div class="sc-cWSIco cVHbVq">
@@ -61,7 +61,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p>Connect Wallet</p>
-                </div><img src="./asseticons/close.svg" alt="">
+                </div><img src="/assets/asseticons/close.svg" alt="">
             </div>
             <div class="title">Connect your wallet</div>
             <div class="subtitle">Connect your wallet to enjoy advanced features. FX Market Elite Pros supports 500+ exchanges &amp; wallets, NFTs, 10,000+ cryptocurrencies, and 20,000+ DeFi smart contracts.</div>

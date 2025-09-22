@@ -18,7 +18,7 @@
                         <div class="sc-kAycRU bUpCWh country_box"><label for="country">Country</label>
                             <div class="wrapper">
                                 <div class="content" style="border: none;">
-                                    <div class="main" style="background: transparent; padding: 0px;"><input name="country" type="text" placeholder="Choose your country" autocomplete="off" disabled="" class="country_search_ref" value=""></div><img alt="arrow-down" class="arrow-down" src="./asseticons/chevron-down.svg">
+                                    <div class="main" style="background: transparent; padding: 0px;"><input name="country" type="text" placeholder="Choose your country" autocomplete="off" disabled="" class="country_search_ref" value=""></div><img alt="arrow-down" class="arrow-down" src="/assets/asseticons/chevron-down.svg">
                                 </div>
                             </div>
                             <div class="menu style-4" style="display: none; top: 95px;">
@@ -534,7 +534,7 @@
                         </div>
                         <div class="sc-eldOKa ddowQs phone_box"><label for="PhoneNumber">Phone number</label>
                             <div class="wrapper">
-                                <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="./asseticons/chevron-down.svg" class="arrow-down"></span></div><input name="phonenumber" type="text" placeholder="number" value=""><br>
+                                <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="/assets/asseticons/chevron-down.svg" class="arrow-down"></span></div><input name="phonenumber" type="text" placeholder="number" value=""><br>
                             </div>
                             <div class="menu style-4" style="display: none;">
                                 <div class="search"><input type="text" placeholder="Search..."></div>

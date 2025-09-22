@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glyms Pro Copy Trading</title>
     <link rel="stylesheet" crossorigin="" href="/assets/assets/index-DaW6PlMO.css">
-    <style>
-        <?php require 'layout/style.php';
-        ?>
-    </style>
+    <?php require 'layout/style.php';
+    ?>
+    <?php require 'layout/script.php'; ?>
 </head>
 
 <body style="position: relative; min-height: 100%; top: 0px;">
@@ -25,4 +24,4 @@
                 !$noheader && require 'layout/header.php';
                 ?>
 
-                <div class="page_wrapper">
+                <div class="page_wrapper scrollbar-hide">
