@@ -1,362 +1,113 @@
-<div id="sidebar" _ngcontent-ng-c1272297247=""
-    class="side-nav ets-scroll-sidenav ets-hover-scroll ng-tns-c1272297247-0 ng-star-inserted "
-    style="<?php echo ($nosidebar ? "display: none;" : ""); ?>">
-    <et-layout-sidenav _ngcontent-ng-c1272297247="" _nghost-ng-c532554544=""
-        class="ng-tns-c1272297247-0 ng-star-inserted">
-        <aside _ngcontent-ng-c532554544="" class="nav-all expanded ng-star-inserted" automation-id="menu-layout">
-            <div _ngcontent-ng-c532554544="" class="nav-top" automation-id="menu-layout-head-clone">
-                <a _ngcontent-ng-c532554544="" href="#" class="top-logo animation-type-fade"
-                    automation-id="sidenav-logo"></a>
-                <!-- <a _ngcontent-ng-c532554544=""
-                    class="expand-collapse-button collapse"
-                    automation-id="sidenav-collapse-expand-button"></a> -->
-                <a _ngcontent-ng-c532554544="" class="close-menu font-icon ets-icon-small ets-icon-close"
-                    onclick="closeSidebar()" automation-id="menu-layout-toggle-menu"></a>
-            </div>
-            <!---->
-            <!---->
-            <div _ngcontent-ng-c532554544="" class="nav-mid">
-                <div _ngcontent-ng-c532554544="" class="top-gradient ng-star-inserted" style="opacity: 0"></div>
-                <!---->
-                <div _ngcontent-ng-c532554544="" class="user-area-box ng-star-inserted">
-                    <!---->
-                    <div _ngcontent-ng-c532554544="" class="user-box ng-star-inserted" automation-id="sidenav-user-box">
-                        <a _ngcontent-ng-c532554544="" href="/assets/people/myUsername"><img _ngcontent-ng-c532554544=""
-                                class="avatar" src="/assets/etoro-cdn.etorostatic.com/images/avatoros/150x150/ng.png"
-                                automation-id="menu-user-avatar" /></a>
-                        <div _ngcontent-ng-c532554544="" class="info animation-type-fade">
-                            <a _ngcontent-ng-c532554544="" class="username ng-star-inserted"
-                                href="/assets/people/myUsername" automation-id="menu-user-page-link">
-                                myUsername</a>
-                            <!---->
-                            <!---->
-                            <!---->
-                            <!---->
-                            <!---->
-                        </div>
-                    </div>
-                    <!---->
-                </div>
-                <!---->
-                <div _ngcontent-ng-c532554544="" class="kyc-box animation-type-fade ng-star-inserted"
-                    automation-id="sidenav-kyc-box">
-                    <div _ngcontent-ng-c532554544="" class="kyc-info ng-star-inserted"
-                        automation-id="sidenav-kyc-load-volunteer-button">
-                        <div _ngcontent-ng-c532554544="" class="kyc-percentage" automation-id="sidenav-kyc-percentage">
-                            <span class="number">20%</span> Complete
-                        </div>
-                        <div _ngcontent-ng-c532554544="" class="kyc-progress-box">
-                            <div _ngcontent-ng-c532554544="" class="progress-bar"
-                                automation-id="sidenav-kyc-progress-bar" style="width: 20%"></div>
-                        </div>
-                        <span _ngcontent-ng-c532554544="" class="cta"
-                            automation-id="menu-complete-profile-button">Complete Profile</span>
-                    </div>
-                    <!---->
-                    <!---->
-                    <!---->
-                </div>
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <nav _ngcontent-ng-c532554544="" class="menus-all">
-                    <ul _ngcontent-ng-c532554544="" class="menu-list list1">
-                        <li _ngcontent-ng-c532554544="" class="list-item list1-item home animation-type-move"
-                            automation-id="sidenav-home">
-                            <a _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Home" ? "active" : "" ?>" href="/"
-                                automation-id="sidenav-menu-home"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon ets-icon-medium"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Home</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <li _ngcontent-ng-c532554544="" class="list-item list1-item watchlist animation-type-move"
-                            automation-id="sidenav-watchlist">
-                            <a _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Watchlist" ? "active" : "" ?>"
-                                href="/watchlist.php" automation-id="sidenav-menu-watchlists"><span
-                                    _ngcontent-ng-c532554544="" class="icon font-icon ets-icon-medium"
-                                    automation-id="menu-layout-watchlist-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Watchlist</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <li _ngcontent-ng-c532554544="" class="list-item list1-item portfolio animation-type-move"
-                            automation-id="sidenav-portfolio">
-                            <a _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Portfolio" ? "active" : "" ?>"
-                                href="/cashflow.php" automation-id="sidenav-menu-portfolio"><span
-                                    _ngcontent-ng-c532554544="" class="icon font-icon ets-icon-medium"
-                                    automation-id="menu-layout-portfolio-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Portfolio</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list1-item discovery animation-type-move intercom-discovery-btn"
-                            automation-id="sidenav-discovery">
-                            <a _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Discover" ? "active" : "" ?>"
-                                href="/discover-overview.php" automation-id="sidenav-menu-discovery"><span
-                                    _ngcontent-ng-c532554544="" class="icon font-icon ets-icon-medium"></span><span
-                                    _ngcontent-ng-c532554544="" class="text">Discover</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list1-item wallet animation-type-move ng-star-inserted"
-                            automation-id="sidenav-wallet">
-                            <a _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Wallet" ? "active" : "" ?>"
-                                href="/wallet.php" automation-id="sidenav-menu-wallet-main"><span
-                                    _ngcontent-ng-c532554544="" class="icon font-icon ets-icon-medium"></span><span
-                                    _ngcontent-ng-c532554544="" class="text">Wallet</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <!---->
-                        <li _ngcontent-ng-c532554544="" automation-id="menu-sep" class="menu-sep animation-type-fade">
-                            More
-                        </li>
-                        <li _ngcontent-ng-c532554544="" class="list-item list2-item copy-trade animation-type-fade"
-                            automation-id="sidenav-copy-trade">
-                            <a _ngcontent-ng-c532554544="" href="/discover-copytrader.php"
-                                class="menu-item <?php echo $pageTitle == "Copy Trader" ? "active" : "" ?>"
-                                automation-id="sidenav-menu-people"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-copy-trader ets-icon-medium"
-                                    automation-id="menu-layout-people-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Copy Trader</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item events animation-type-fade ng-star-inserted"
-                            automation-id="sidenav-events">
-                            <a _ngcontent-ng-c532554544="" href="/assets/my/events" class="menu-item"
-                                automation-id="sidenav-menu-events"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-calendar ets-icon-medium"
-                                    automation-id="menu-layout-events-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Economic
-                                    Calendar</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <!---->
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item club animation-type-fade ng-star-inserted"
-                            automation-id="sidenav-club">
-                            <a _ngcontent-ng-c532554544="" class="menu-item" automation-id="sidenav-menu-club"><span
-                                    _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-club ets-icon-medium"
-                                    automation-id="menu-layout-clubs-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Royal Oak Club
-                                    <!---->
-                                </span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <!---->
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item invite-friends animation-type-fade ng-star-inserted"
-                            automation-id="sidenav-invite-friends">
-                            <a href="/invite.php" _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Invite Friends" ? "active" : "" ?>"
-                                automation-id="sidenav-menu-invite-friends"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-invite-friends ets-icon-medium"
-                                    automation-id="menu-layout-refer-friend-icon"></span><span
-                                    _ngcontent-ng-c532554544="" class="text">Invite Friends
-                                    <!---->
-                                    <!---->
-                                </span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <!---->
-                        <!---->
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item withdrawal animation-type-fade ng-star-inserted"
-                            automation-id="sidenav-withdrawal">
-                            <a href="/withdraw.php" _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Withdraw Funds" ? "active" : "" ?>"
-                                automation-id="sidenav-menu-withdraw"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon ets-icon-withdrawal ets-icon-medium"
-                                    automation-id="menu-layout-withdrawal-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Withdraw Funds</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <!---->
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item config-buttons animation-type-fade ng-star-inserted"
-                            automation-id="sidenav-config-buttons">
-                            <a _ngcontent-ng-c532554544="" href="/settings.php" class="menu-item ng-star-inserted"
-                                automation-id="sidenav-menu-settings"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-medium ets-icon-settings"
-                                    automation-id="menu-layout-settings-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Settings</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                                <!---->
-                            </a>
-                            <!---->
-                        </li>
-                        <!---->
-                        <!---->
-                        <li _ngcontent-ng-c532554544="" class="list-item list2-item help animation-type-fade"
-                            automation-id="sidenav-learn-more">
-                            <a _ngcontent-ng-c532554544="" class="menu-item" href="/assets/learn-more"
-                                automation-id="sidenav-menu-help"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-tooltip ets-icon-medium"
-                                    automation-id="menu-layout-help-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Help &amp;
-                                    Resources</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                                <!---->
-                            </a>
-                        </li>
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item animation-type-fade ng-star-inserted"
-                            automation-id="sidenav-academy">
-                            <a _ngcontent-ng-c532554544="" target="_blank" rel="noopener noreferrer" class="menu-item"
-                                href="/assets/etoro.com/en/academy" automation-id="sidenav-menu-academy"><span
-                                    _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-academic-degree ets-icon-medium"
-                                    automation-id="menu-layout-academy-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Academy</span>
-                                <!---->
-                            </a>
-                        </li>
-                        <!---->
-                        <!---->
-                        <!---->
-                        <!---->
-                        <!---->
-                        <!---->
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item help animation-type-fade nft-promo ng-star-inserted"
-                            automation-id="sidenav-nft-promo-desktop">
-                            <a _ngcontent-ng-c532554544="" href="javascript:void(0)" class="menu-item nft-menu-item"
-                                automation-id="sidenav-menu-nft"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom icon-navigation-nft"
-                                    automation-id="menu-layout-nft-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Get Delta App</span>
-                                <!---->
-                            </a>
-                        </li>
-                        <!---->
-                        <!---->
-                        <!---->
-                        <li _ngcontent-ng-c532554544=""
-                            class="list-item list2-item logout animation-type-fade ng-star-inserted"
-                            automation-id="sidenav-logout">
-                            <a _ngcontent-ng-c532554544=""
-                                class="menu-item <?php echo $pageTitle == "Logout" ? "active" : "" ?>"
-                                automation-id="sidenav-menu-logout"><span _ngcontent-ng-c532554544=""
-                                    class="icon font-icon animation-type-zoom ets-icon-logout ets-icon-medium"
-                                    automation-id="menu-layout-logout-icon"></span><span _ngcontent-ng-c532554544=""
-                                    class="text">Logout</span>
-                                <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                        _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                                    <!---->
-                                    <!---->
-                                </et-layout-sidenav-tooltip>
-                            </a>
-                        </li>
-                        <!---->
-                    </ul>
-                </nav>
-                <div _ngcontent-ng-c532554544="" class="bottom-gradient ng-star-inserted" style="opacity: 1"></div>
-                <!---->
-            </div>
-            <div _ngcontent-ng-c532554544="" class="nav-bottom">
-                <div _ngcontent-ng-c532554544="" class="cta-box animation-type-fade">
-                    <a href="/deposit.php" _ngcontent-ng-c532554544=""
-                        class="big-cta above-the-box deposit-btn ng-star-inserted"
-                        automation-id="left-menu-deposit-button">
-                        Deposit Funds</a>
-                    <!---->
-                    <!---->
-                </div>
-                <div _ngcontent-ng-c532554544="" class="mode-box animation-type-fade ng-star-inserted"
-                    automation-id="menu-layout-link-mode">
-                    <a _ngcontent-ng-c532554544="" class="icon-arrow-right to-virtual ng-star-inserted"
-                        automation-id="sidenav-switch-to-virtual">Switch to Virtual</a>
-                    <!---->
-                    <!---->
-                </div>
-                <!---->
-                <!---->
-                <!---->
-                <div _ngcontent-ng-c532554544="" class="bottom-menu-items animation-type-zoom">
-                    <a _ngcontent-ng-c532554544="" href="/assets/settings/" class="menu-item ng-star-inserted"
-                        automation-id="sidenav-menu-settings"><span _ngcontent-ng-c532554544=""
-                            class="icon font-icon animation-type-zoom ets-icon-medium ets-icon-settings"
-                            automation-id="menu-layout-settings-icon"></span><span _ngcontent-ng-c532554544=""
-                            class="text">Settings</span>
-                        <et-layout-sidenav-tooltip _ngcontent-ng-c532554544="" _nghost-ng-c3597958804=""><span
-                                _ngcontent-ng-c3597958804="" class="menu-tooltip"></span>
-                            <!---->
-                            <!---->
-                        </et-layout-sidenav-tooltip>
-                        <!---->
-                    </a>
-                    <!---->
+<div class="sc-esYjtY iLtyI">
+    <div class="sc-tafSX eHcceq"></div>
+    <div class="sc-JrEyx kSCqsC scrollbar-hide ">
+        <div class="top_section"><span style="display: flex; justify-content: space-between; align-items: center;"><img src="/assets/logo.png" alt="logo" width="60px" class="logo"></span>
+            <div class="selectable_sections">
+                <div class="selectable_section">
+                    <div class="sidebar_items"><a class="link" href="/dashboard"><span class="sidebar_item active"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-house">
+                                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
+                                    <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                </svg>
+                                <p>Dashboard</p>
+                            </span></a><a class="link" href="/deposit"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-circle-plus">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M8 12h8"></path>
+                                    <path d="M12 8v8"></path>
+                                </svg>
+                                <p>Deposit</p>
+                            </span></a><a class="link" href="/withdraw"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-circle-minus">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M8 12h8"></path>
+                                </svg>
+                                <p>Withdraw</p>
+                            </span></a><a class="link" href="/convert"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-arrow-left-right">
+                                    <path d="M8 3 4 7l4 4"></path>
+                                    <path d="M4 7h16"></path>
+                                    <path d="m16 21 4-4-4-4"></path>
+                                    <path d="M20 17H4"></path>
+                                </svg>
+                                <p>Convert</p>
+                            </span></a><a class="link" href="/user-assets"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-wallet-minimal">
+                                    <path d="M17 14h.01"></path>
+                                    <path d="M7 7h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14"></path>
+                                </svg>
+                                <p>Assets</p>
+                            </span></a><a class="link" href="/markets"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-chart-pie">
+                                    <path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"></path>
+                                    <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                                </svg>
+                                <p>Markets</p>
+                            </span></a><a class="link" href="/live/trade"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-activity">
+                                    <path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"></path>
+                                </svg>
+                                <p>Live Trade</p>
+                            </span></a><a class="link" href="/trade"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-trending-up">
+                                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                                    <polyline points="16 7 22 7 22 13"></polyline>
+                                </svg>
+                                <p>Demo Trade</p>
+                            </span></a><a class="link" href="/stake"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-coins">
+                                    <circle cx="8" cy="8" r="6"></circle>
+                                    <path d="M18.09 10.37A6 6 0 1 1 10.34 18"></path>
+                                    <path d="M7 6h1v4"></path>
+                                    <path d="m16.71 13.88.7.71-2.82 2.82"></path>
+                                </svg>
+                                <p>Stake</p>
+                            </span></a><a class="link" href="/ranking"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-shield-half">
+                                    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                                    <path d="M12 22V2"></path>
+                                </svg>
+                                <p>Ranking</p>
+                            </span></a><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-users">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <p>Referrals</p>
+                        </span><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-link">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg>
+                            <p>Wallet Connect</p>
+                        </span><a class="link" href="/copy-experts"><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-copy">
+                                    <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                                    <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                                </svg>
+                                <p>Copy Experts</p>
+                            </span></a><span class="sidebar_item"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-settings">
+                                <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                            <p>Settings</p>
+                        </span></div>
                 </div>
             </div>
-        </aside>
-        <!---->
-        <!---->
-        <!---->
-    </et-layout-sidenav>
-    <!---->
-    <!---->
+        </div>
+        <div class="sc-fjvwmM hJiwgB bottom_section">
+            <div class="menu"><span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLineJoin="round" class="lucide lucide-settings">
+                        <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <p>Settings</p>
+                </span><span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" strokeLineCap="round" strokeLineJoin="round" class="lucide lucide-log-out">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" x2="9" y1="12" y2="12"></line>
+                    </svg>
+                    <p>Log out</p>
+                </span></div>
+            <div class="user_tab"><span class="user_container">
+                    <div class="user_circle">
+                        <p>M</p>
+                    </div><span class="user_details">
+                        <p class="name">Munner Jennifer</p>
+                    </span>
+                </span><span class="selectors"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 9L12 4L17 9" stroke="#BAC2DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 15L12 20L17 15" stroke="#BAC2DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></span></div>
+        </div>
+    </div>
 </div>

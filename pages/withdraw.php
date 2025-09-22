@@ -1,34 +1,59 @@
-<div class="cdk-overlay-container">
-    <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
-    <div class="cdk-global-overlay-wrapper" dir="ltr" style="justify-content: center; align-items: center;">
-        <div id="cdk-overlay-0" class="cdk-overlay-pane" style="max-width: 100vw; position: static;"><et-dialog-container tabindex="-1" class="dialog-container ng-tns-c1415986070-8 ng-trigger ng-trigger-dialogContainer ng-star-inserted" _nghost-ng-c1415986070="" style="transform: none;"><et-withdraw _nghost-ng-c3209180284="" class="ng-star-inserted" style=""><et-withdraw-header _ngcontent-ng-c3209180284="" _nghost-ng-c2967672812="" class="ng-star-inserted" style="">
-                        <div _ngcontent-ng-c2967672812="" class="header et-font-xl header-right">
-                            <div _ngcontent-ng-c2967672812="" class="dialog-title">
-                                <div _ngcontent-ng-c2967672812="" class="title-and-back"><!----><span _ngcontent-ng-c2967672812="">Withdrawal</span></div><a _ngcontent-ng-c2967672812="" automation-id="icon-close" class="icon-close-rounded-corners et-color-dark-grey"></a>
-                            </div>
-                            <div _ngcontent-ng-c2967672812="" class="subtitle">
-                                <p _ngcontent-ng-c2967672812="" class="withdraw-title et-font-s"> </p>
-                            </div>
-                        </div>
-                    </et-withdraw-header><!----><!----><!----><!----><!----><et-withdraw-amount _ngcontent-ng-c3209180284="" class="withdraw-v2-style ng-star-inserted" _nghost-ng-c4198248727="" style="">
-                        <div _ngcontent-ng-c4198248727="" class="withdraw-wrap ng-untouched ng-pristine ng-invalid ng-star-inserted">
-                            <div _ngcontent-ng-c4198248727="" class="withdraw-form"><!----><!---->
-                                <div _ngcontent-ng-c4198248727="" id="amount-disclaimer" class="message ng-star-inserted"><span _ngcontent-ng-c4198248727="" class="ets-info ng-star-inserted">Sorry, but your account does not have sufficient funds to withdraw.
-                                        For more information and a breakdown, click on the tooltip below.</span><!----><!----></div><!---->
-                                <div _ngcontent-ng-c4198248727="" class="withdraw-margin-wrapper">
-                                    <div _ngcontent-ng-c4198248727="" class="withdraw-row withdraw-balance">
-                                        <div _ngcontent-ng-c4198248727="" class="withdraw-row-title et-color-background">
-                                            <div _ngcontent-ng-c4198248727="" class="balance et-font-s">Available to withdraw</div>
-                                            <div _ngcontent-ng-c4198248727="" automation-id="balance-details" class="et-icon-question-circle et-font-xl"></div>
-                                        </div>
-                                        <div _ngcontent-ng-c4198248727="" automation-id="withdraw-amount-balance" class="withdraw-amount et-font-m">$0.00</div>
-                                    </div>
-                                </div>
-                            </div><!---->
-                        </div><!---->
-                        <div _ngcontent-ng-c4198248727="" class="withdraw-footer single-button">
-                            <section _ngcontent-ng-c4198248727="" class="action-bar"><!----><button _ngcontent-ng-c4198248727="" automation-id="got-it" class="ets-button-basic ets-button-big ets-button-primary ng-star-inserted"> Got it </button><!----></section>
-                        </div>
-                    </et-withdraw-amount><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></et-withdraw><!----></et-dialog-container></div>
+<div class="main">
+    <div class="sc-jGKwVr bojtAG scrollbar-hide">
+        <div class="transaction_table_top scrollbar-hide">
+            <div class="transaction_header_wrapper">
+                <p class="title">Withdrawals</p><button class="transaction_button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card">
+                        <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                        <line x1="2" x2="22" y1="10" y2="10"></line>
+                    </svg>
+                    <p>Withdraw</p>
+                </button>
+            </div>
+            <div class="table_utils">
+                <div class="inputs">
+                    <div class="sc-fUnNpA cSTqDz scrollbar-hide">
+                        <div class="wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                            </svg><input type="text" placeholder="Search for a referral" style="width: 180px;"></div>
+                    </div>
+                </div>
+                <div class="sc-jXbVAB dKkgCb type_select">
+                    <div class="wrapper"><span class="content"><select name="assets" id="">
+                                <option value="all">All</option>
+                                <option value="pending">Pending</option>
+                                <option value="approved">Approved</option>
+                                <option value="declined">Declined</option>
+                            </select><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg></span></div>
+                </div>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td class="head-cell user">
+                        <p>Ref</p>
+                    </td>
+                    <td class="head-cell user">
+                        <p>Method</p>
+                    </td>
+                    <td class="head-cell currency">
+                        <p>Amount</p>
+                    </td>
+                    <td class="head-cell currency">
+                        <p>Total (USD)</p>
+                    </td>
+                    <td class="head-cell login">
+                        <p>Date</p>
+                    </td>
+                    <td class="head-cell registered">
+                        <p>Status</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
     </div>
 </div>
