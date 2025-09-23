@@ -14,7 +14,7 @@
                     <p class="title">Experts copied:</p>
                     <p class="value">0</p>
                 </div>
-            </div><button class="stake_balance_button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-clock">
+            </div><button onclick="toggleCoopyExpertsSlideIn()" class="stake_balance_button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-clock">
                     <path d="M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3"></path>
                     <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
                     <circle cx="8" cy="16" r="6"></circle>
@@ -249,3 +249,16 @@
         </div>
     </div>
 </div>
+
+<script>
+        function toggleCoopyExpertsSlideIn() {
+        if (document.querySelector(".toggleCoopyExpertsSlideIn").style.display === 'block') {
+            document.querySelector('.toggleCoopyExpertsSlideIn').style.display = 'none';
+            return;
+        } else {
+            document.querySelector('.toggleCoopyExpertsSlideIn').style.display = 'block';
+            return;
+        }
+    }
+
+</script>

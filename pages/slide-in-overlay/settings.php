@@ -44,7 +44,7 @@
                         </span>
                     </div>
                 </div>
-                <div  onclick="openSlideIn('personal')" class="sc-fhzEvr HBzzh">
+                <div onclick="openSlideIn('personal')" class="sc-fhzEvr HBzzh">
                     <div class="left">
                         <div class="settings_option_item_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-check">
                                 <path d="M2 21a8 8 0 0 1 13.292-6"></path>
@@ -2699,12 +2699,20 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const slideInRoots = document.querySelectorAll('#slideIn-root');
+        const settings_slidein = document.querySelector('.settings_slidein');
+        settings_slidein.addEventListener('click', (e) => {
+            e.preventDefault()
+            e.stopPropagation()
+            closeSlideIn()
+        })
+
 
         slideInRoots.forEach(slideInRoot => {
             const overlay = slideInRoot.querySelector('.overlay');
             const closeButton = slideInRoot.querySelector('.top');
 
-            function closeSlideIn() {
+
+            function closeSlideIn(event) {
                 slideInRoot.style.transform = 'translateX(100%)';
                 setTimeout(() => {
                     slideInRoot.style.display = 'none';

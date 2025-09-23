@@ -2,7 +2,7 @@
     <div class="sc-jGKwVr bojtAG scrollbar-hide">
         <div class="transaction_table_top scrollbar-hide">
             <div class="transaction_header_wrapper">
-                <p class="title">Withdrawals</p><button class="transaction_button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card">
+                <p class="title">Withdrawals</p><button onclick="toggleWithdrawModal('1')" class="transaction_button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card">
                         <rect width="20" height="14" x="2" y="5" rx="2"></rect>
                         <line x1="2" x2="22" y1="10" y2="10"></line>
                     </svg>
@@ -57,3 +57,16 @@
         </table>
     </div>
 </div>
+
+
+<script>
+    function toggleWithdrawModal(which) {
+        if (document.getElementById('toggleWithdrawModal' + which).style.display === 'flex') {
+            document.getElementById('toggleWithdrawModal' + which).style.display = 'none';
+            return;
+        } else {
+            document.getElementById('toggleWithdrawModal' + which).style.display = 'flex';
+            return;
+        }
+    }
+</script>

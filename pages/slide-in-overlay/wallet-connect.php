@@ -56,7 +56,7 @@
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
-            <div class="top">
+            <div class="top" onclick="closeSlideIn()">
                 <div class="d-flex head-hldr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left">
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
@@ -214,3 +214,36 @@
         </div>
     </div>
 </div>
+
+<script>
+    function toggleConnectWallet() {
+        if (document.getElementById('toggleConnectWalletId').style.display === 'flex') {
+            document.getElementById('toggleConnectWalletId').style.display = 'none';
+            return;
+        } else {
+            document.getElementById('toggleConnectWalletId').style.display = 'flex';
+            return;
+        }
+    }
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('#toggleConnectWalletId .MuiBackdrop-root').addEventListener('click', function() {
+            document.getElementById('toggleConnectWalletId').style.display = 'none';
+        });
+
+        document.querySelector('#toggleConnectWalletId .sc-lcIQwB').addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+
+        //switch_wrapper toggle
+        const switchWrappers = document.querySelectorAll('.switch_wrapper');
+        switchWrappers.forEach(wrapper => {
+            wrapper.addEventListener('click', function() {
+                const switchElement = this.querySelector('.switch');
+                switchElement.classList.toggle('active');
+                toggleConnectWallet();
+            });
+        });
+    });
+</script>

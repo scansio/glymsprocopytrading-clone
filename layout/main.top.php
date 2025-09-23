@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" style="height: 100%;">
+<html lang="en" style="height: 100%;scrollbar-width: none;">
 
 <head>
     <meta charset="UTF-8">

@@ -1,9 +1,9 @@
-<div id="slideIn-root">
+<div id="slideIn-root" class="toggleStakeSlideIn" style="display: none;">
     <div class="overlay" style="position: fixed; background-color: rgba(0, 0, 0, 0.5); inset: 0px; display: block;"></div>
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
             <div class="top">
-                <p>Staking History</p><img src="/assets/asseticons/close.svg" alt=""  onclick="closeSlideIn()"> 
+                <p>Staking History</p><img src="/assets/asseticons/close.svg" alt="" onclick="toggleStakeSlideIn()">
             </div>
             <div class="sc-hRJeED DjATE">
                 <div class="no_data"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">

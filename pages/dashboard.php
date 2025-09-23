@@ -240,9 +240,8 @@
             </div>
         </div>
     </div>
-    <div>
-        <iframe frameborder="0" scrolling="no" height="450" width="420" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.investing.com/profit-calculator/index.php?force_lang=72&acc=12&pair=1"></iframe><br /><div style="width:450"><span style="float:left"><span style="font-size: 11px;color: #333333;text-decoration: none;">The Profit Calculator is powered by <a href="https://ng.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com Nigeria</a>.</span></span></div>
-    </div>
+
+
     <div class="mid_sec">
         <div class="inner">
             <div class="sc-EROOM feJhby" style="width: 100%;">
@@ -437,4 +436,24 @@
             </div>
         </div>
     </div>
+</div>
+
+<div style="width: 2rem" id="economic-calendar-571280">
+    <script type="text/javascript" src="https://fxverify.com/Content/remote/remote-calendar-widget.js"></script>
+    <script type="text/javascript">
+        RemoteCalendar({
+            "Lang": "page",
+            "DefaultTime": "today",
+            "DefaultTheme": "dark",
+            "Url": "https://fxverify.com",
+            "SubPath": "economic-calendar",
+            "IsShowEmbedButton": false,
+            "ContainerId": "economic-calendar-571280"
+        });
+    </script>
+</div>
+
+<div>
+    <iframe frameborder="0" scrolling="no" height="450" width="420" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.investing.com/profit-calculator/index.php?force_lang=72&acc=12&pair=1"></iframe><br />
+    <div style="width:450"><span style="float:left"><span style="font-size: 11px;color: #333333;text-decoration: none;">The Profit Calculator is powered by <a href="https://ng.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com Nigeria</a>.</span></span></div>
 </div>
