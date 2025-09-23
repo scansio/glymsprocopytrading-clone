@@ -2700,10 +2700,14 @@
     document.addEventListener('DOMContentLoaded', function() {
         const slideInRoots = document.querySelectorAll('#slideIn-root');
         const settings_slidein = document.querySelector('.settings_slidein');
-        settings_slidein.addEventListener('click', (e) => {
+        const t = settings_slidein.querySelector(".top")
+        t.addEventListener('click', (e) => {
             e.preventDefault()
             e.stopPropagation()
             closeSlideIn()
+            setTimeout(() => {
+                window.location.reload()
+            }, 500)
         })
 
 
