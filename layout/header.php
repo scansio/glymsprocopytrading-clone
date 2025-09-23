@@ -3,7 +3,7 @@
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
             <div class="top" onclick="toggleNotifications()">
-                <p>Notifications</p><img src="/assets/asseticons/close.svg" alt="">
+                <p>Notifications</p><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="content">
                 <div class="sc-gEvDqW hqdVDm">
@@ -65,11 +65,11 @@
 
 
 <div class="sc-dcJtft flmyU">
-    <div class="heading"><img src="/assets/asseticons/menu.svg" alt="" class="burger" onclick="toggleSidebar(true)">
+    <div class="heading"><img src="./assets/asseticons/menu.svg" alt="" class="burger" onclick="toggleSidebar(true)">
         <div class="header_right">
             <div style="position: relative;">
                 <div class="user_circle" onclick="toggleNotifications()">
-                    <img src="/assets/asseticons/bell_standard.svg" width="35" alt="" class="bell"></div>
+                    <img src="./assets/asseticons/bell_standard.svg" width="35" alt="" class="bell"></div>
             </div>
             <div style="position: relative;">
                 <div class="user_circle" onclick="toggleUserMenu()">
@@ -85,13 +85,13 @@
                                 <p class="user_account"> account</p>
                             </span>
                         </div>
-                        <div class="actions_box"><span><img src="/asseticons/menu-home.svg" alt="">
+                        <div class="actions_box"><span><img src="./asseticons/menu-home.svg" alt="">
                                 <p>Home</p>
-                            </span><span><img src="/asseticons/menu-user.svg" alt="">
+                            </span><span><img src="./asseticons/menu-user.svg" alt="">
                                 <p>View profile</p>
-                            </span><span><img src="/asseticons/menu-settings.svg" alt="">
+                            </span><span><img src="./asseticons/menu-settings.svg" alt="">
                                 <p>Settings</p>
-                            </span><span><img src="/asseticons/menu-log-out.svg" alt="">
+                            </span><span><img src="./asseticons/menu-log-out.svg" alt="">
                                 <p>Log out</p>
                             </span></div>
                     </div>

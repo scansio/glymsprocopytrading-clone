@@ -14,13 +14,13 @@
                     <div class="sc-kpDprT hWIEwx type_select">
                         <div class="wrapper">
                             <p class="label">Method:</p><span class="content" style="width: 100%;">
-                                <div class="icon_wrap"><img src="/assets/asseticons/BTC.svg" alt=""></div>
+                                <div class="icon_wrap"><img src="./assets/asseticons/BTC.svg" alt=""></div>
                                 <div style="flex: 1 1 0%;">
                                     <div class="css-b62m3t-container"><span id="react-select-2-live-region" class="css-7pg0cj-a11yText"></span><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" role="log" class="css-7pg0cj-a11yText"></span>
                                         <div class="css-eixy16-control">
                                             <div class="css-hlgwow">
                                                 <div class="css-7crn4c-singleValue">
-                                                    <div style="display: flex; align-items: center; gap: 8px;"><img src="/assets/asseticons/BTC.svg" alt="" style="width: 16px; margin-right: 6px;"><span>BTC</span></div>
+                                                    <div style="display: flex; align-items: center; gap: 8px;"><img src="./assets/asseticons/BTC.svg" alt="" style="width: 16px; margin-right: 6px;"><span>BTC</span></div>
                                                 </div><input id="react-select-2-input" tabindex="0" inputmode="none" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-activedescendant="" aria-readonly="true" class="css-1hac4vs-dummyInput" value="">
                                             </div>
                                             <div class="css-1wy0on6"><span class="css-1u9des2-indicatorSeparator"></span>
@@ -71,7 +71,7 @@
                         <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 16px;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&amp;data=14Gph1kfSoyXw4dPesJFYVnXwniJJYqnY4" alt="QR Code" class="qr-code" style="margin-bottom: 8px;"></div>
                         <div class="sc-gFqAYk daOwnt amount_box">
                             <div class="label">
-                                <p>Address: </p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                                <p>Address: </p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                             </div>
                             <div class="wrapper"><input type="text" placeholder="14Gph1kfSoyXw4dPesJFYVnXwniJJYqnY4" disabled="" value="14Gph1kfSoyXw4dPesJFYVnXwniJJYqnY4" style="width: 85%;"><span class="asset" style="cursor: pointer;">
                                     <p>Copy</p>
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div style="display: flex; justify-content: center; gap: 8px;"><img src="/assets/asseticons/BTC.svg" alt="" width="14">
+            <div style="display: flex; justify-content: center; gap: 8px;"><img src="./assets/asseticons/BTC.svg" alt="" width="14">
                 <p style="font-size: 12px;">BTC</p>
             </div>
         </div>

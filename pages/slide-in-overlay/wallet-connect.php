@@ -3,7 +3,7 @@
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
             <div class="top">
-                <p>Referral Program</p><img src="/assets/asseticons/close.svg" alt="" onclick="closeSlideIn()">
+                <p>Referral Program</p><img src="./assets/asseticons/close.svg" alt="" onclick="closeSlideIn()">
             </div>
             <div class="subtitle">Invite your friends to join our platform by using your referral code on sign up! You'll earn 10% anytime your friends make a deposit on our platform. It's a win-win for everyone!</div>
             <div class="sc-cWSIco cVHbVq">
@@ -61,7 +61,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p>Connect Wallet</p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="title">Connect your wallet</div>
             <div class="subtitle">Connect your wallet to enjoy advanced features. FX Market Elite Pros supports 500+ exchanges &amp; wallets, NFTs, 10,000+ cryptocurrencies, and 20,000+ DeFi smart contracts.</div>
@@ -73,132 +73,132 @@
                         </svg><input type="number" placeholder="Search for your wallet"></div>
                 </div>
                 <div class="wallet_hldr">
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/trust.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/trust.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Trust Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/metamask.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/metamask.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Metamask</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/blockchain.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/blockchain.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Blockchain</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/binance.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/binance.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Binance</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/coinbase.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/coinbase.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Coinbase</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/bitpay.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/bitpay.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Bitpay</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/cryptocom.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/cryptocom.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Crypto Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/aktionriat.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/aktionriat.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Aktionariat Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/bitkeep.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/bitkeep.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Bitkeep Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/imtoken.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/imtoken.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Imtoken</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/infinito.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/infinito.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Infinito Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/infinity.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/infinity.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Infinity Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/keyringpro.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/keyringpro.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Keyringpro Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/ownbit.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/ownbit.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Ownbit Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/safepal.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/safepal.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Safepal Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/sparkpoint.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/sparkpoint.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Sparkpoint Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/wallet.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/wallet.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Wallet io</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/exodus.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/exodus.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Exodus Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/phantom.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/phantom.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Phantom Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/pulse.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/pulse.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Pulse Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/bitcoinwallet.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/bitcoinwallet.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Bitcoin Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/rainbow.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/rainbow.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Rainbow</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/uniswap.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/uniswap.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Uniswap</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/robinhood.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/robinhood.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Robinhood Wallet</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/coinbase-one.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/coinbase-one.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Coinbase One</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="/assets/wallets/gemini.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/gemini.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Gemini</p>
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>

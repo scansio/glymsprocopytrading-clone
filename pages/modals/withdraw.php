@@ -14,7 +14,7 @@
                     <div class="sc-kpDprT hWIEwx type_select">
                         <div class="wrapper">
                             <p class="label">Type:</p><span class="content">
-                                <div class="icon_wrap"><img src="/assets/asseticons/BTC.svg" alt=""><select name="assets" id="">
+                                <div class="icon_wrap"><img src="./assets/asseticons/BTC.svg" alt=""><select name="assets" id="">
                                         <option value="BTC">BTC</option>
                                         <option value="ETH">ETH</option>
                                         <option value="BCH">BCH</option>
@@ -55,7 +55,7 @@
                     </div>
                     <div class="sc-gFqAYk daOwnt amount_box">
                         <div class="label">
-                            <p>Address: </p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                            <p>Address: </p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                         </div>
                         <div class="wrapper"><input type="text" placeholder="Your wallet address" name="address" value=""></div>
                     </div>

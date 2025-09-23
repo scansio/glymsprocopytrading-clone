@@ -7,7 +7,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p class="title"><span></span> <span>Settings</span></p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="sc-jxOSYQ eJswPN">
                 <div class="user_box">
@@ -123,7 +123,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p class="title"><span>payments</span> <span>Settings</span></p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="sc-jxOSYQ eJswPN">
                 <div class="user_box">
@@ -173,7 +173,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p class="title"><span>verification</span> <span>Settings</span></p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="sc-jxOSYQ eJswPN">
                 <div class="user_box">
@@ -202,7 +202,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p class="title"><span>personal</span> <span>Settings</span></p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="sc-jxOSYQ eJswPN">
                 <div class="user_box">
@@ -238,7 +238,7 @@
                 <div class="sc-kAycRU bUpCWh country_box"><label for="country">Country</label>
                     <div class="wrapper">
                         <div class="content" style="border: none;">
-                            <div class="main"><input type="text" name="country" placeholder="Choose your country" class="country_search_ref" autocomplete="off" disabled="" value="Austria"></div><img alt="arrow-down" class="arrow-down" src="/assets/asseticons/chevron-down.svg">
+                            <div class="main"><input type="text" name="country" placeholder="Choose your country" class="country_search_ref" autocomplete="off" disabled="" value="Austria"></div><img alt="arrow-down" class="arrow-down" src="./assets/asseticons/chevron-down.svg">
                         </div>
                     </div>
                     <div class="menu style-4" style="display: none;">
@@ -744,7 +744,7 @@
                 </div>
                 <div class="sc-eldOKa ddowQs phone_box"><label for="PhoneNumber">Phone number</label>
                     <div class="wrapper">
-                        <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="/assets/asseticons/chevron-down.svg" class="arrow-down"></span></div><input type="text" name="phone" placeholder="number" value="25563892001"><br>
+                        <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="./assets/asseticons/chevron-down.svg" class="arrow-down"></span></div><input type="text" name="phone" placeholder="number" value="25563892001"><br>
                     </div>
                     <div class="menu style-4" style="display: none;">
                         <div class="search"><input type="text" placeholder="Search..."></div>
@@ -1524,7 +1524,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p class="title"><span>nok</span> <span>Settings</span></p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="sc-jxOSYQ eJswPN">
                 <div class="user_box">
@@ -1548,7 +1548,7 @@
                 </div>
                 <div class="sc-eldOKa ddowQs phone_box"><label for="PhoneNumber">Phone number</label>
                     <div class="wrapper">
-                        <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="/assets/asseticons/chevron-down.svg" class="arrow-down"></span></div><input type="text" name="nok_phone" placeholder="number" value=""><br>
+                        <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="./assets/asseticons/chevron-down.svg" class="arrow-down"></span></div><input type="text" name="nok_phone" placeholder="number" value=""><br>
                     </div>
                     <div class="menu style-4" style="display: none;">
                         <div class="search"><input type="text" placeholder="Search..."></div>
@@ -2346,7 +2346,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p class="title"><span>security</span> <span>Settings</span></p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="sc-jxOSYQ eJswPN">
                 <div class="user_box">
@@ -2417,7 +2417,7 @@
                         <path d="m15 18-6-6 6-6"></path>
                     </svg>
                     <p class="title"><span>account</span> <span>Settings</span></p>
-                </div><img src="/assets/asseticons/close.svg" alt="">
+                </div><img src="./assets/asseticons/close.svg" alt="">
             </div>
             <div class="sc-jxOSYQ eJswPN">
                 <div class="user_box">

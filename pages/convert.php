@@ -8,9 +8,9 @@
                         </span></div>
                     <div class="sc-fPXMhL fXfxHK amount_box" style="position: relative;">
                         <div class="label">
-                            <p>From:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                            <p>From:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                         </div>
-                        <div class="wrapper"><input type="number" placeholder="0.5"><span class="asset"><span><img src="/assets/asseticons/USD.svg" alt="">
+                        <div class="wrapper"><input type="number" placeholder="0.5"><span class="asset"><span><img src="./assets/asseticons/USD.svg" alt="">
                                     <p>USD</p>
                                 </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -34,9 +34,9 @@
                         </span></div>
                     <div class="sc-fPXMhL fXfxHK amount_box convert" style="position: relative;">
                         <div class="label">
-                            <p>To:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                            <p>To:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                         </div>
-                        <div class="wrapper"><input type="number" placeholder="0" disabled=""><span class="asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+                        <div class="wrapper"><input type="number" placeholder="0" disabled=""><span class="asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
                                     <p>BTC</p>
                                 </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -59,7 +59,7 @@
     <div class="chart">
         <div style="grid-area: chart; background-color: rgb(21, 24, 35); height: 100%; border-radius: 12px; width: 100%; padding: 12px; display: flex; flex-direction: column; gap: 16px; min-height: 462px;">
             <div style="display: flex; gap: 32px; align-items: center;">
-                <div class="sc-kAkozD fTUSYt"><span style="display: flex; gap: 8px; align-items: center;"><img src="/assets/asseticons/USD.svg" alt="" style="width: 40px; height: 40px;"><span style="display: grid; gap: 4px;">
+                <div class="sc-kAkozD fTUSYt"><span style="display: flex; gap: 8px; align-items: center;"><img src="./assets/asseticons/USD.svg" alt="" style="width: 40px; height: 40px;"><span style="display: grid; gap: 4px;">
                             <p style="font-size: 14px; color: rgb(186, 194, 222);">Market</p>
                             <p style="font-size: 16px; color: rgb(255, 255, 255); font-weight: 600;">USD</p>
                         </span></span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

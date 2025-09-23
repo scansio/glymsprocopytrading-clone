@@ -3,7 +3,7 @@
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
             <div class="top">
-                <p>Staking History</p><img src="/assets/asseticons/close.svg" alt="" onclick="toggleStakeSlideIn()">
+                <p>Staking History</p><img src="./assets/asseticons/close.svg" alt="" onclick="toggleStakeSlideIn()">
             </div>
             <div class="sc-hRJeED DjATE">
                 <div class="no_data"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">

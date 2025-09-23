@@ -60,9 +60,9 @@
 							</span></div>
 						<div class="sc-fPXMhL fXfxHK amount_box stuffer" style="opacity: 0; margin-bottom: -105px; user-select: none; pointer-events: none; width: 100%; position: sticky;">
 							<div class="label">
-								<p>Amount:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+								<p>Amount:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
 							</div>
-							<div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="/assets/asseticons/bitcoin.svg" alt="">
+							<div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="./assets/asseticons/bitcoin.svg" alt="">
 										<p>BTC</p>
 									</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -70,9 +70,9 @@
 						</div>
 						<div class="sc-fPXMhL fXfxHK amount_box" style="position: relative;">
 							<div class="label">
-								<p>From:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+								<p>From:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
 							</div>
-							<div class="wrapper"><input type="number" placeholder="0.5"><span class="asset"><span><img src="/assets/asseticons/USD.svg" alt="">
+							<div class="wrapper"><input type="number" placeholder="0.5"><span class="asset"><span><img src="./assets/asseticons/USD.svg" alt="">
 										<p>USD</p>
 									</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -96,9 +96,9 @@
 							</span></div>
 						<div class="sc-fPXMhL fXfxHK amount_box convert" style="position: relative;">
 							<div class="label">
-								<p>To:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+								<p>To:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
 							</div>
-							<div class="wrapper"><input type="number" placeholder="0" disabled=""><span class="asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+							<div class="wrapper"><input type="number" placeholder="0" disabled=""><span class="asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
 										<p>BTC</p>
 									</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -146,7 +146,7 @@
 					<td class="head-cell action"></td>
 					</th>
 					<tr>
-						<td class="row-cell asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+						<td class="row-cell asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
 								<p>BTC</p>
 							</span></td>
 						<td class="row-cell date">
@@ -169,7 +169,7 @@
 							</button></td>
 					</tr>
 					<tr>
-						<td class="row-cell asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+						<td class="row-cell asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
 								<p>BTC</p>
 							</span></td>
 						<td class="row-cell date">
@@ -194,7 +194,7 @@
 				</table>
 				<div class="sc-fvtEUL kSkCNi">
 					<div class="table-cell active">
-						<div class="top"><span><img src="/assets/asseticons/BTC.svg" alt="">
+						<div class="top"><span><img src="./assets/asseticons/BTC.svg" alt="">
 								<p>BTC</p>
 							</span><button>Closed</button></div>
 						<div class="bottom"><span>
@@ -215,7 +215,7 @@
 							</span></div>
 					</div>
 					<div class="table-cell active">
-						<div class="top"><span><img src="/assets/asseticons/BTC.svg" alt="">
+						<div class="top"><span><img src="./assets/asseticons/BTC.svg" alt="">
 								<p>BTC</p>
 							</span><button>Closed</button></div>
 						<div class="bottom"><span>

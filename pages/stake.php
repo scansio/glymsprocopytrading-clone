@@ -35,7 +35,7 @@
                 </span></div>
             <div class="sc-bbSYpP fTjnEs">
                 <div class="sc-gFAXEw gTcbxS">
-                    <div class="top"><span class="icon_wrap"><img src="/assets/asseticons/BTC.svg" alt=""></span><span class="title_wrap">
+                    <div class="top"><span class="icon_wrap"><img src="./assets/asseticons/BTC.svg" alt=""></span><span class="title_wrap">
                             <p style="font-size: 14px; color: white; font-weight: 500;">Bitcoin</p>
                             <p style="font-size: 14px; font-weight: 600; color: rgba(255, 255, 255, 0.5);">BTC</p>
                         </span></div>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="sc-gFAXEw gTcbxS">
-                    <div class="top"><span class="icon_wrap"><img src="/assets/asseticons/USDT.svg" alt=""></span><span class="title_wrap">
+                    <div class="top"><span class="icon_wrap"><img src="./assets/asseticons/USDT.svg" alt=""></span><span class="title_wrap">
                             <p style="font-size: 14px; color: white; font-weight: 500;">Tether</p>
                             <p style="font-size: 14px; font-weight: 600; color: rgba(255, 255, 255, 0.5);">USDT</p>
                         </span></div>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="sc-gFAXEw gTcbxS">
-                    <div class="top"><span class="icon_wrap"><img src="/assets/asseticons/ETH.svg" alt=""></span><span class="title_wrap">
+                    <div class="top"><span class="icon_wrap"><img src="./assets/asseticons/ETH.svg" alt=""></span><span class="title_wrap">
                             <p style="font-size: 14px; color: white; font-weight: 500;">Ethereum</p>
                             <p style="font-size: 14px; font-weight: 600; color: rgba(255, 255, 255, 0.5);">ETH</p>
                         </span></div>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div class="sc-gFAXEw gTcbxS">
-                    <div class="top"><span class="icon_wrap"><img src="/assets/asseticons/XRP.svg" alt=""></span><span class="title_wrap">
+                    <div class="top"><span class="icon_wrap"><img src="./assets/asseticons/XRP.svg" alt=""></span><span class="title_wrap">
                             <p style="font-size: 14px; color: white; font-weight: 500;">Ripple</p>
                             <p style="font-size: 14px; font-weight: 600; color: rgba(255, 255, 255, 0.5);">XRP</p>
                         </span></div>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="sc-gFAXEw gTcbxS">
-                    <div class="top"><span class="icon_wrap"><img src="/assets/asseticons/DOGE.svg" alt=""></span><span class="title_wrap">
+                    <div class="top"><span class="icon_wrap"><img src="./assets/asseticons/DOGE.svg" alt=""></span><span class="title_wrap">
                             <p style="font-size: 14px; color: white; font-weight: 500;">Dogecoin</p>
                             <p style="font-size: 14px; font-weight: 600; color: rgba(255, 255, 255, 0.5);">DOGE</p>
                         </span></div>

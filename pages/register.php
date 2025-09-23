@@ -1,7 +1,7 @@
 <div id="root"></div>
     <div class="sc-jMalIJ fAxuiM">
         <div class="container scrollbar-hide" style="background: transparent;">
-            <div class="register__top__standard"><img src="/assets/logo.png" alt="logo" class="logo"><a href="/" style="font-size: 14px; color: rgb(255, 255, 255);">Back to homepage</a></div>
+            <div class="register__top__standard"><img src="./assets/logo.png" alt="logo" class="logo"><a href="./" style="font-size: 14px; color: rgb(255, 255, 255);">Back to homepage</a></div>
             <div class="register__form__standard">
                 <h1>Create an account</h1>
                 <div class="sc-kRRxPL jgIrnG">
@@ -18,7 +18,7 @@
                         <div class="sc-kAycRU bUpCWh country_box"><label for="country">Country</label>
                             <div class="wrapper">
                                 <div class="content" style="border: none;">
-                                    <div class="main" style="background: transparent; padding: 0px;"><input name="country" type="text" placeholder="Choose your country" autocomplete="off" disabled="" class="country_search_ref" value=""></div><img alt="arrow-down" class="arrow-down" src="/assets/asseticons/chevron-down.svg">
+                                    <div class="main" style="background: transparent; padding: 0px;"><input name="country" type="text" placeholder="Choose your country" autocomplete="off" disabled="" class="country_search_ref" value=""></div><img alt="arrow-down" class="arrow-down" src="./assets/asseticons/chevron-down.svg">
                                 </div>
                             </div>
                             <div class="menu style-4" style="display: none; top: 95px;">
@@ -534,7 +534,7 @@
                         </div>
                         <div class="sc-eldOKa ddowQs phone_box"><label for="PhoneNumber">Phone number</label>
                             <div class="wrapper">
-                                <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="/assets/asseticons/chevron-down.svg" class="arrow-down"></span></div><input name="phonenumber" type="text" placeholder="number" value=""><br>
+                                <div class="code"><span><input type="text" placeholder="+376" disabled="" value="+376"><img src="./assets/asseticons/chevron-down.svg" class="arrow-down"></span></div><input name="phonenumber" type="text" placeholder="number" value=""><br>
                             </div>
                             <div class="menu style-4" style="display: none;">
                                 <div class="search"><input type="text" placeholder="Search..."></div>
@@ -1285,7 +1285,7 @@
                                     </span></div>
                             </div>
                         </div>
-                        <p style="font-size: 14px;">Already have an account? <a class="link" href="/login.php" style="color: rgb(47, 150, 240);">Sign In</a></p><button type="submit" class="sc-jlZhRR hfrIRq disabled" disabled="">
+                        <p style="font-size: 14px;">Already have an account? <a class="link" href="./login.php" style="color: rgb(47, 150, 240);">Sign In</a></p><button type="submit" class="sc-jlZhRR hfrIRq disabled" disabled="">
                             <p>Open account</p>
                         </button>
                     </form>

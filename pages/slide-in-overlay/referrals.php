@@ -3,7 +3,7 @@
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
             <div class="top">
-                <p>Referral Program</p><img src="/assets/asseticons/close.svg" alt="" onclick="closeSlideIn()">
+                <p>Referral Program</p><img src="./assets/asseticons/close.svg" alt="" onclick="closeSlideIn()">
             </div>
             <div class="subtitle">Invite your friends to join our platform by using your referral code on sign up! You'll earn 10% anytime your friends make a deposit on our platform. It's a win-win for everyone!</div>
             <div class="sc-cWSIco cVHbVq">

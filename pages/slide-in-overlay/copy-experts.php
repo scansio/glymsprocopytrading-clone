@@ -3,7 +3,7 @@
     <div class="sc-fqkwJk jDMtnb">
         <div class="inner">
             <div class="top">
-                <p>Expert Copy History</p><img src="/assets/asseticons/close.svg" alt="" onclick="toggleCoopyExpertsSlideIn()" class="close">
+                <p>Expert Copy History</p><img src="./assets/asseticons/close.svg" alt="" onclick="toggleCoopyExpertsSlideIn()" class="close">
             </div>
             <div class="sc-kMkwmO frbVIV">
                 <div class="no_referral"><svg class="svg-icon" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">

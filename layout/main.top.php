@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="./favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glyms Pro Copy Trading</title>
-    <link rel="stylesheet" crossorigin="" href="/assets/assets/index-DaW6PlMO.css">
+    <link rel="stylesheet" crossorigin="" href="./assets/assets/index-DaW6PlMO.css">
     <?php require 'layout/style.php';
     ?>
     <?php require 'layout/script.php'; ?>

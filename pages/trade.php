@@ -60,9 +60,9 @@
 							</span></div>
 						<div class="sc-fPXMhL fXfxHK amount_box stuffer" style="opacity: 0; margin-bottom: -105px; user-select: none; pointer-events: none; width: 100%; position: sticky;">
 							<div class="label">
-								<p>Amount:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+								<p>Amount:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
 							</div>
-							<div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="/assets/asseticons/bitcoin.svg" alt="">
+							<div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="./assets/asseticons/bitcoin.svg" alt="">
 										<p>BTC</p>
 									</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -82,9 +82,9 @@
 						</div>
 						<div class="sc-fPXMhL fXfxHK amount_box" style="position: relative;">
 							<div class="label">
-								<p>Amount:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+								<p>Amount:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
 							</div>
-							<div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+							<div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
 										<p>BTC</p>
 									</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -100,7 +100,7 @@
 						<div style="display: grid; grid-template-columns: auto auto; gap: 12px; margin: 24px 0px; width: 100%;">
 							<div class="sc-ikkyvV dhDkAe amount_box variant">
 								<div class="label">
-									<p>Stop Loss:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+									<p>Stop Loss:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
 								</div>
 								<div class="wrapper"><input type="number" placeholder="113028.541"><span class="asset">
 										<p>BTC</p>
@@ -108,7 +108,7 @@
 							</div>
 							<div class="sc-ikkyvV dhDkAe amount_box variant">
 								<div class="label">
-									<p>Take profit:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+									<p>Take profit:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
 								</div>
 								<div class="wrapper"><input type="number" placeholder="113031.541"><span class="asset">
 										<p>BTC</p>
@@ -118,7 +118,7 @@
 						<div class="sc-jXbVAB dKkgCb type_select">
 							<div class="wrapper">
 								<div class="label" style="position: relative; display: flex; gap: 8px; align-items: center;">
-									<p>Duration:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn" style="display: block;">
+									<p>Duration:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn" style="display: block;">
 								</div><span class="content"><select name="duration">
 										<option value="2 minutes">2 minutes</option>
 										<option value="5 minutes">5 minutes</option>
@@ -180,7 +180,7 @@
 					</thead>
 					<tbody style="display: block; width: 100%;">
 						<tr>
-							<td class="row-cell asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+							<td class="row-cell asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
 									<p>BTC</p>
 								</span></td>
 							<td class="row-cell date">
@@ -206,7 +206,7 @@
 				</table>
 				<div class="sc-fvtEUL kSkCNi">
 					<div class="table-cell active">
-						<div class="top"><span><img src="/assets/asseticons/BTC.svg" alt="">
+						<div class="top"><span><img src="./assets/asseticons/BTC.svg" alt="">
 								<p>BTC</p>
 							</span><button>Closed</button></div>
 						<div class="bottom"><span>

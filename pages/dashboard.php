@@ -8,42 +8,42 @@
                             <p>$0.00</p>
                             <p style="font-size: 14px; color: rgb(255, 255, 255); line-height: 16px; font-weight: 600;">Capital: $0</p>
                         </span>
-                        <div class="balance_card_top_buttons"><button class="balance_card_top_button "><span><img src="/assets/asseticons/wallet.svg" alt="icon" style="height: 16px; width: 16px;"></span></button><button class="balance_card_top_button active"><span><img src="/assets/asseticons/file.svg" alt="icon" style="height: 16px; width: 16px;"></span></button></div>
+                        <div class="balance_card_top_buttons"><button class="balance_card_top_button "><span><img src="./assets/asseticons/wallet.svg" alt="icon" style="height: 16px; width: 16px;"></span></button><button class="balance_card_top_button active"><span><img src="./assets/asseticons/file.svg" alt="icon" style="height: 16px; width: 16px;"></span></button></div>
                     </div>
                     <div class="scrollbar-hide css-1y2jars">
                         <div class="top">Account summary</div>
                         <div class="summaries">
-                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/deposit.svg" alt="">
+                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="./assets/asseticons/deposit.svg" alt="">
                                         <p class="name">Total deposits</p>
                                     </span>
                                     <p class="text">$0.00</p><button class="sc-dLNtp etixHs summary_action_btn" style="flex: 0 1 0%;" onclick="window.location.href = '/deposit.php'">Deposit</button>
                                 </span></div>
-                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/withdraw.svg" alt="">
+                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="./assets/asseticons/withdraw.svg" alt="">
                                         <p class="name">Total withdrawals</p>
                                     </span>
                                     <p class="text">$0.00</p><button class="sc-dLNtp etixHs summary_action_btn" style="flex: 0 1 0%;" onclick="window.location.href = '/withdraw.php'">Withdraw</button>
                                 </span></div>
-                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/trade.svg" alt="">
+                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="./assets/asseticons/trade.svg" alt="">
                                         <p class="name">Total profits</p>
                                     </span>
                                     <p class="text">$0.00</p>
                                 </span></div>
-                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/trade.svg" alt="">
+                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="./assets/asseticons/trade.svg" alt="">
                                         <p class="name">Trades history</p>
                                     </span>
                                     <p class="text">$0.00</p>
                                 </span></div>
-                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/verify.svg" alt="">
+                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="./assets/asseticons/verify.svg" alt="">
                                         <p class="name">Verification</p>
                                     </span>
                                     <p class="value" style="color: rgb(255, 51, 68);">Your account is not verified</p>
                                 </span></div>
-                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/expert.svg" alt="">
+                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="./assets/asseticons/expert.svg" alt="">
                                         <p class="name">Copy Expert</p>
                                     </span>
                                     <p class="value" style="color: rgb(255, 51, 68);">No expert copied</p>
                                 </span></div>
-                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="/assets/asseticons/verify.svg" alt="">
+                            <div class="summary_wrap"><span class="summary_hlder"><span><img src="./assets/asseticons/verify.svg" alt="">
                                         <p class="name">Account Type</p>
                                     </span>
                                     <p class="value" style="text-transform: capitalize;">Normal</p>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="sc-bVVHAX iXiVsa">
                     <div class="ranking">
-                        <h3>Unlock next rank</h3><img src="/assets/ranking/silver.png">
+                        <h3>Unlock next rank</h3><img src="./assets/ranking/silver.png">
                         <p>$0.00/$5000</p>
                         <p>Deposit $5000 to unlock the next rank</p>
                     </div>
@@ -81,8 +81,8 @@
     <div class="chart" style="display: flex; gap: 8px;">
         <div class="sc-bBeLha OsKAb">
             <div class="tradingview-widget-container" style="height: 100%; width: 100%; mix-blend-mode: lighten; position: relative; border-radius: 12px; padding: 8px;">
-                <div style="background: transparent; width: calc(100% - 16px); height: calc(100% - 16px); position: absolute; top: 8px; border: 2px solid rgb(3, 5, 7); pointer-events: none; user-select: none; left: 8px; padding: 8px;"></div><iframe scrolling="no" allowtransparency="true" frameborder="0" src="/assets/www.tradingview-widget.com/embed-widget/advanced-chart/?locale=en#%7B%22autosize%22%3Atrue%2C%22symbol%22%3A%22BTC%22%2C%22interval%22%3A%22D%22%2C%22timezone%22%3A%22Etc%2FUTC%22%2C%22theme%22%3A%22dark%22%2C%22style%22%3A%221%22%2C%22backgroundColor%22%3A%22%230c0000%22%2C%22gridColor%22%3A%22rgba(255%2C%20255%2C%20255%2C%200.025)%22%2C%22hide_top_toolbar%22%3Atrue%2C%22hide_side_toolbar%22%3Atrue%2C%22allow_symbol_change%22%3Atrue%2C%22support_host%22%3A%22https%3A%2F%2Fwww.tradingview.com%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22utm_source%22%3A%22app.glymsprocopytrading.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22advanced-chart%22%2C%22page-uri%22%3A%22app.glymsprocopytrading.com%2Fdashboard%22%7D" title="advanced chart TradingView widget" lang="en" style="user-select: none; box-sizing: border-box; display: block; height: calc(100% - 32px); width: 100%;"></iframe>
-                <div class="tradingview-widget-copyright" style="display: none;"><a href="/assets/www.tradingview.com/?utm_source=app.glymsprocopytrading.com&amp;utm_medium=widget_new&amp;utm_campaign=advanced-chart" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                <div style="background: transparent; width: calc(100% - 16px); height: calc(100% - 16px); position: absolute; top: 8px; border: 2px solid rgb(3, 5, 7); pointer-events: none; user-select: none; left: 8px; padding: 8px;"></div><iframe scrolling="no" allowtransparency="true" frameborder="0" src="./assets/www.tradingview-widget.com/embed-widget/advanced-chart/?locale=en#%7B%22autosize%22%3Atrue%2C%22symbol%22%3A%22BTC%22%2C%22interval%22%3A%22D%22%2C%22timezone%22%3A%22Etc%2FUTC%22%2C%22theme%22%3A%22dark%22%2C%22style%22%3A%221%22%2C%22backgroundColor%22%3A%22%230c0000%22%2C%22gridColor%22%3A%22rgba(255%2C%20255%2C%20255%2C%200.025)%22%2C%22hide_top_toolbar%22%3Atrue%2C%22hide_side_toolbar%22%3Atrue%2C%22allow_symbol_change%22%3Atrue%2C%22support_host%22%3A%22https%3A%2F%2Fwww.tradingview.com%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22utm_source%22%3A%22app.glymsprocopytrading.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22advanced-chart%22%2C%22page-uri%22%3A%22app.glymsprocopytrading.com%2Fdashboard%22%7D" title="advanced chart TradingView widget" lang="en" style="user-select: none; box-sizing: border-box; display: block; height: calc(100% - 32px); width: 100%;"></iframe>
+                <div class="tradingview-widget-copyright" style="display: none;"><a href="./assets/www.tradingview.com/?utm_source=app.glymsprocopytrading.com&amp;utm_medium=widget_new&amp;utm_campaign=advanced-chart" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
                 <style>
                     .tradingview-widget-copyright {
                         font-size: 13px !important;
@@ -252,9 +252,9 @@
                             </span></div>
                         <div class="sc-fPXMhL fXfxHK amount_box" style="position: relative;">
                             <div class="label">
-                                <p>From:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                                <p>From:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                             </div>
-                            <div class="wrapper"><input type="number" placeholder="0.5"><span class="asset"><span><img src="/assets/asseticons/USD.svg" alt="">
+                            <div class="wrapper"><input type="number" placeholder="0.5"><span class="asset"><span><img src="./assets/asseticons/USD.svg" alt="">
                                         <p>USD</p>
                                     </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -278,9 +278,9 @@
                             </span></div>
                         <div class="sc-fPXMhL fXfxHK amount_box convert" style="position: relative;">
                             <div class="label">
-                                <p>To:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                                <p>To:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                             </div>
-                            <div class="wrapper"><input type="number" placeholder="0" disabled=""><span class="asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+                            <div class="wrapper"><input type="number" placeholder="0" disabled=""><span class="asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
                                         <p>BTC</p>
                                     </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -314,9 +314,9 @@
                             </span></div>
                         <div class="sc-fPXMhL fXfxHK amount_box stuffer" style="opacity: 0; margin-bottom: -105px; user-select: none; pointer-events: none; width: 100%; position: sticky;">
                             <div class="label">
-                                <p>Amount:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                                <p>Amount:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                             </div>
-                            <div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="/assets/asseticons/bitcoin.svg" alt="">
+                            <div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="./assets/asseticons/bitcoin.svg" alt="">
                                         <p>BTC</p>
                                     </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -335,9 +335,9 @@
                         </div>
                         <div class="sc-fPXMhL fXfxHK amount_box" style="position: relative;">
                             <div class="label">
-                                <p>Amount:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                                <p>Amount:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                             </div>
-                            <div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="/assets/asseticons/BTC.svg" alt="">
+                            <div class="wrapper"><input type="number" placeholder="1000"><span class="asset"><span><img src="./assets/asseticons/BTC.svg" alt="">
                                         <p>BTC</p>
                                     </span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -353,7 +353,7 @@
                         <div style="display: grid; grid-template-columns: auto auto; gap: 12px; margin: 24px 0px; width: 100%;">
                             <div class="sc-ikkyvV dhDkAe amount_box variant">
                                 <div class="label">
-                                    <p>Stop Loss:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                                    <p>Stop Loss:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                                 </div>
                                 <div class="wrapper"><input type="number" placeholder="112677.346"><span class="asset">
                                         <p>BTC</p>
@@ -361,7 +361,7 @@
                             </div>
                             <div class="sc-ikkyvV dhDkAe amount_box variant">
                                 <div class="label">
-                                    <p>Take profit:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
+                                    <p>Take profit:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn">
                                 </div>
                                 <div class="wrapper"><input type="number" placeholder="112680.346"><span class="asset">
                                         <p>BTC</p>
@@ -371,7 +371,7 @@
                         <div class="sc-jXbVAB dKkgCb type_select">
                             <div class="wrapper">
                                 <div class="label" style="position: relative; display: flex; gap: 8px; align-items: center;">
-                                    <p>Duration:</p><img src="/assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn" style="display: block;">
+                                    <p>Duration:</p><img src="./assets/asseticons/info.svg" alt="" class="error_inform" id="popcorn" style="display: block;">
                                 </div><span class="content"><select name="duration">
                                         <option value="2 minutes">2 minutes</option>
                                         <option value="5 minutes">5 minutes</option>
