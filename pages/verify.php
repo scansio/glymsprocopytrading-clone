@@ -16,7 +16,7 @@
                                     <input class="authCode_box" />
                                     <input class="authCode_box" />
                                 </div>
-                                <div class="authCode_input_holder"><input class="authCode_input" inputmode="numeric" pattern="^\d+$" maxlength="6"></div>
+                                <!-- <div class="authCode_input_holder"><input class="authCode_input" inputmode="numeric" pattern="^\d+$" maxlength="6"></div> -->
                             </div>
                         </div>
                     </div>

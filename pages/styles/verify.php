@@ -301,8 +301,8 @@
     .igxMDI .authCode {
         position: relative;
         cursor: text;
-        user-select: none;
-        pointer-events: none;
+        /* user-select: none;
+        pointer-events: none; */
     }
 
 
@@ -347,7 +347,7 @@
         display: flex;
         text-align: left;
         opacity: 1;
-        color: transparent;
+        color: white;
         pointer-events: all;
         background: transparent;
         caret-color: transparent;
