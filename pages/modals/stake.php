@@ -1,4 +1,4 @@
-<div id="toggleStakeModal1" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px;">
+<div id="toggleStakeModal1" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px; overflow: scroll; scrollbar-width: none;">
     <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-919eu4" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
     <div tabindex="0" data-testid="sentinelStart"></div>
     <div class="sc-cfxfQh inaFvt scrollbar-hide" tabindex="-1">
@@ -13,24 +13,18 @@
                 <div class="deposit_bottom">
                     <div class="sc-kpDprT hWIEwx type_select">
                         <div class="wrapper">
-                            <p class="label">Method:</p><span class="content" style="width: 100%;">
-                                <div class="icon_wrap"><img src="./assets/asseticons/BTC.svg" alt=""></div>
-                                <div style="flex: 1 1 0%;">
-                                    <div class="css-b62m3t-container"><span id="react-select-2-live-region" class="css-7pg0cj-a11yText"></span><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" role="log" class="css-7pg0cj-a11yText"></span>
-                                        <div class="css-eixy16-control">
-                                            <div class="css-hlgwow">
-                                                <div class="css-7crn4c-singleValue">
-                                                    <div style="display: flex; align-items: center; gap: 8px;"><img src="./assets/asseticons/BTC.svg" alt="" style="width: 16px; margin-right: 6px;"><span>BTC</span></div>
-                                                </div><input id="react-select-2-input" tabindex="0" inputmode="none" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" aria-activedescendant="" aria-readonly="true" class="css-1hac4vs-dummyInput" value="">
-                                            </div>
-                                            <div class="css-1wy0on6"><span class="css-1u9des2-indicatorSeparator"></span>
-                                                <div class="css-1xc3v61-indicatorContainer" aria-hidden="true"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-8mmkcg">
-                                                        <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
-                                                    </svg></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <p class="label">Method:</p><span class="content">
+                                <div class="icon_wrap">
+                                    <img id="tokenImage" src="./assets/asseticons/BTC.svg" alt="">
+                                    <select name="assets" id="" onchange="changeTokenImage(this.value)">
+                                        <option value="BTC">BTC</option>
+                                        <option value="ETH">ETH</option>
+                                        <option value="BCH">BCH</option>
+                                    </select>
                                 </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
                             </span>
                         </div>
                     </div>
@@ -54,7 +48,7 @@
     <div tabindex="0" data-testid="sentinelEnd"></div>
 </div>
 
-<div id="toggleStakeModal2" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px;">
+<div id="toggleStakeModal2" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px; overflow: scroll; scrollbar-width: none;">
     <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-919eu4" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
     <div tabindex="0" data-testid="sentinelStart"></div>
     <div class="sc-cfxfQh inaFvt scrollbar-hide" tabindex="-1">
@@ -87,3 +81,9 @@
     </div>
     <div tabindex="0" data-testid="sentinelEnd"></div>
 </div>
+
+<script>
+    function changeTokenImage(value) {
+        document.getElementById("tokenImage").src = `./assets/asseticons/${value}.svg`
+    }
+</script>

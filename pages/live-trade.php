@@ -8,17 +8,20 @@
 </div>
 
 <script>
-    function startLiveTrading() {
+    function toggleLiveTradingModal() {
         let t = document.getElementById("startLiveTradeModal")
         if (t)
-            t.style.display = "flex";
+            if (t.style.display == 'flex')
+                t.style.display = "none";
+            else
+                t.style.display = "flex";
     }
 
     // Attach the event listener after DOM is ready
     document.addEventListener('DOMContentLoaded', function() {
         const startBtn = document.getElementById('startLiveTradeBtn');
         if (startBtn) {
-            startBtn.addEventListener('click', startLiveTrading);
+            startBtn.addEventListener('click', toggleLiveTradingModal);
         }
     });
 </script>

@@ -1,4 +1,4 @@
-<div id="toggleWithdrawModal1" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px;">
+<div id="toggleWithdrawModal1" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px; overflow: scroll; scrollbar-width: none;">
     <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-919eu4" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
     <div tabindex="0" data-testid="sentinelStart"></div>
     <div class="sc-ktJcvw jYJBPZ scrollbar-hide" tabindex="-1">
@@ -14,14 +14,15 @@
                     <div class="sc-kpDprT hWIEwx type_select">
                         <div class="wrapper">
                             <p class="label">Type:</p><span class="content">
-                                <div class="icon_wrap"><img src="./assets/asseticons/BTC.svg" alt=""><select name="assets" id="">
+                                <div class="icon_wrap">
+                                    <img id="tokenImage" src="./assets/asseticons/BTC.svg" alt="">
+                                    <select name="assets" id="" onchange="changeTokenImage(this.value)">
                                         <option value="BTC">BTC</option>
                                         <option value="ETH">ETH</option>
                                         <option value="BCH">BCH</option>
-                                        <option value="USDC ERC20">USDC ERC20</option>
-                                        <option value="USDT TRC20">USDT TRC20</option>
-                                        <option value="USDT ERC20">USDT ERC20</option>
-                                    </select></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    </select>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6 9L12 15L18 9" stroke="#5C6175" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                             </span>
@@ -70,3 +71,10 @@
     </div>
     <div tabindex="0" data-testid="sentinelEnd"></div>
 </div>
+
+
+<script>
+    function changeTokenImage(value) {
+        document.getElementById("tokenImage").src = `./assets/asseticons/${value}.svg`
+    }
+</script>

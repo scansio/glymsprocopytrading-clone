@@ -20,7 +20,10 @@
                         <p>Your referral link:</p>
                     </div>
                     <div class="input_holder">
-                        <div class="wrapper"><input type="text" value="https://glymsprocopytrading.com?ref=331380"></div><button class="sc-dLNtp etixHs btn">Copy</button>
+                        <div class="wrapper">
+                            <input readonly id="refLinkInput" type="text" value="https://glymsprocopytrading.com?ref=331380">
+                        </div>
+                        <button id="copyRefLinkButton" class="sc-dLNtp etixHs btn">Copy</button>
                     </div>
                 </div>
                 <div class="statistics"><label>Statistics</label>
@@ -54,3 +57,12 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById("copyRefLinkButton").addEventListener("click", () => {
+        const textarea = document.getElementById("refLinkInput");
+        textarea.select();
+        document.execCommand("copy");
+        alert("Referral link copied")
+    })
+</script>

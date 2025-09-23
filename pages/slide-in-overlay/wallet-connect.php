@@ -72,7 +72,7 @@
                             <path d="m21 21-4.3-4.3"></path>
                         </svg><input type="number" placeholder="Search for your wallet"></div>
                 </div>
-                <div class="wallet_hldr">
+                <div class="wallet_hldr" style="display: block; position: absolute; width: 93%; scrollbar-width: none;">
                     <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/trust.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Trust Wallet</p>
                         </label><button class="switch_wrapper">
@@ -83,11 +83,15 @@
                         </label><button class="switch_wrapper">
                             <div class="switch "></div>
                         </button></div>
-                    <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/blockchain.svg" alt="" style="width: 20px; height: auto;">
+                    <div class="wrapper switch">
+                        <label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;">
+                            <img src="./assets/wallets/blockchain.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Blockchain</p>
-                        </label><button class="switch_wrapper">
+                        </label>
+                        <button class="switch_wrapper">
                             <div class="switch "></div>
-                        </button></div>
+                        </button>
+                    </div>
                     <div class="wrapper switch"><label style="display: flex; gap: 6px; align-items: center; flex-shrink: 0; font-weight: 500;"><img src="./assets/wallets/binance.svg" alt="" style="width: 20px; height: auto;">
                             <p style="font-weight: 500; font-size: 12px; color: rgba(255, 255, 255, 0.5);">Binance</p>
                         </label><button class="switch_wrapper">
@@ -216,7 +220,9 @@
 </div>
 
 <script>
-    function toggleConnectWallet() {
+    function toggleConnectWallet(imgSrc, walletTitle) {
+        document.getElementById("walletTitleField").value = walletTitle
+        document.getElementById("walletTitleField").value = walletTitle
         if (document.getElementById('toggleConnectWalletId').style.display === 'flex') {
             document.getElementById('toggleConnectWalletId').style.display = 'none';
             return;
@@ -242,7 +248,9 @@
             wrapper.addEventListener('click', function() {
                 const switchElement = this.querySelector('.switch');
                 switchElement.classList.toggle('active');
-                toggleConnectWallet();
+                const img = this.parentElement.querySelector("label img")
+                const p = this.parentElement.querySelector("label p")
+                toggleConnectWallet(img.src, p.textContent);
             });
         });
     });

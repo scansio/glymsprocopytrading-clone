@@ -1,4 +1,4 @@
-<div id="toggleConnectWalletId" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px;">
+<div id="toggleConnectWalletId" role="presentation" class="MuiModal-root css-8ndowl" style="display: none; place-content: center; z-index: 10001; padding: 12px; overflow: scroll; scrollbar-width: none;">
     <div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-919eu4" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
     <div tabindex="0" data-testid="sentinelStart"></div>
     <div class="sc-lcIQwB fcCqp scrollbar-hide" tabindex="-1">
@@ -15,7 +15,7 @@
                         <div class="label">
                             <p>Wallet: </p>
                         </div>
-                        <div class="wrapper"><input type="text" placeholder="Your wallet name" disabled="" value="Trust Wallet"></div>
+                        <div class="wrapper"><input id="walletTitleField" type="text" placeholder="Your wallet name" disabled="" value="Trust Wallet"></div>
                     </div>
                     <div class="sc-fUnNpA cSTqDz key_box scrollbar-hide" >
                         <div class="wrapper"><label>Seed/Recovery Phrase:</label>

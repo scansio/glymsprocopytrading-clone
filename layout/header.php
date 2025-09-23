@@ -69,7 +69,8 @@
         <div class="header_right">
             <div style="position: relative;">
                 <div class="user_circle" onclick="toggleNotifications()">
-                    <img src="./assets/asseticons/bell_standard.svg" width="35" alt="" class="bell"></div>
+                    <img src="./assets/asseticons/bell_standard.svg" width="35" alt="" class="bell">
+                </div>
             </div>
             <div style="position: relative;">
                 <div class="user_circle" onclick="toggleUserMenu()">
@@ -80,20 +81,27 @@
                         <div class="user_box">
                             <div class="user_circle_variant">
                                 <p>M</p>
-                            </div><span class="user_details">
+                            </div>
+                            <span onclick="window.location.href = './settings.php'" class="user_details">
                                 <p class="user_name">Munner Jennifer</p>
                                 <p class="user_account"> account</p>
                             </span>
                         </div>
-                        <div class="actions_box"><span><img src="./asseticons/menu-home.svg" alt="">
+                        <div class="actions_box">
+                            <span onclick="window.location.href = './'">
+                                <img src="./assets/asseticons/menu-home.svg" alt="">
                                 <p>Home</p>
-                            </span><span><img src="./asseticons/menu-user.svg" alt="">
+                            </span>
+                            <span onclick="window.location.href = './settings.php'"><img src="./assets/asseticons/menu-user.svg" alt="">
                                 <p>View profile</p>
-                            </span><span><img src="./asseticons/menu-settings.svg" alt="">
+                            </span>
+                            <span onclick="window.location.href = './settings.php'"><img src="./assets/asseticons/menu-settings.svg" alt="">
                                 <p>Settings</p>
-                            </span><span><img src="./asseticons/menu-log-out.svg" alt="">
+                            </span>
+                            <span onclick="window.location.href = './login.php'"><img src="./assets/asseticons/menu-log-out.svg" alt="">
                                 <p>Log out</p>
-                            </span></div>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,13 +137,13 @@
         }
     }
 
-   /*  // Close the user menu when clicking outside
-    document.addEventListener('click', function(event) {
-        const userMenu = document.getElementById('userMenu');
-        const userCircle = document.querySelector('.user_circle');
+    /*  // Close the user menu when clicking outside
+     document.addEventListener('click', function(event) {
+         const userMenu = document.getElementById('userMenu');
+         const userCircle = document.querySelector('.user_circle');
 
-        if (!userMenu.contains(event.target) && !userCircle.contains(event.target)) {
-            userMenu.style.display = 'none';
-        }
-    }); */
+         if (!userMenu.contains(event.target) && !userCircle.contains(event.target)) {
+             userMenu.style.display = 'none';
+         }
+     }); */
 </script>
